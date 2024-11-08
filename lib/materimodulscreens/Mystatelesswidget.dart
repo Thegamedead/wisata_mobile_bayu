@@ -17,12 +17,11 @@ class Mystatelesswidget extends StatelessWidget{
         children: [
           Image.asset('assets/images/white.jpg'),
           Text(
-          'kucing',
+          'CatBerg',
           style: TextStyle(
             fontSize: 38,
             fontWeight: FontWeight.bold,
             color: Colors.blueAccent,
-
           ),
           )
         ],
