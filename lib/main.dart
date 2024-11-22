@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wisata_mobile_bayu/materimodulscreens/fromscreen6.dart';
+import 'package:wisata_mobile_bayu/screens/homescreen.dart';
 import 'package:wisata_mobile_bayu/screens/splahscreen.dart';
 
 void main(){
@@ -18,7 +19,7 @@ class _TravelAppState extends State<TravelApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FromScreen6(),
+      home: HomeScreen(),
     );
   }
 }
